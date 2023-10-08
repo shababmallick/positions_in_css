@@ -1,0 +1,62 @@
+/* Reset some default styles for the body */
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the sticky header */
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    padding: 10px 0;
+    z-index: 100; 
+    text-align: center;
+}
+
+.sticky-header nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.sticky-header .get{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sticky-header .logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+.sticky-header ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sticky-header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.sticky-header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.content {
+    padding: 20px;
+    margin-top: 80px; 
+
+}

@@ -1,0 +1,50 @@
+.container{
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    top: 170px;
+    left: 170px;
+    padding: 0px;
+    width: 110px;
+    height: 110px;
+}
+
+.box-a{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.box-b{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+    top: -50px;
+}
+.box-c{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+    left: 60px;
+    top: -100px;
+}
+.box-d{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+    top:-90px
+}
+.box-e{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+    left: 60px;
+    top: -140px;
+}

@@ -1,0 +1,46 @@
+Absolute and relative positioning are two CSS(Cascading Style Sheets)
+properties used to control the positioning of elements on a web page.
+They are often used in conjunction with CSS 'position' property to
+determine how an elements is displayed within its containing 
+element or the documnet as a whole.Here's an explanation of the key 
+difference between absolute and relative positioning.
+
+Absolute positioning: When an element is set to absolute positioning
+it is positioned relative to its nearest positioned ancestor, which
+means an ancestor element that has a 'position' property set to 
+anything other than default 'static'.if no positioned ancestor
+is found, the element is positioned relative to the initial 
+containing block, which is typically the viewport(the visible area of webpage).
+
+Relative Positioning: An element with relative positioning is positioned
+relative to its normal position in the document flow.it remains within
+the normal document flow, but you use the 'top', 'right','bottom',
+or 'left' properties to offset its position from where it would be by default.
+
+
+2. Impact on document Flow:
+Absolute positioning: Elements with absolute positioning are removed
+from the normal document flow.This means that other elements on the page will not be aware 
+of the absolute positioned elements presence and they will not be affected by
+its position.
+
+Relative Positioning: Elements with relative positioning do not affect
+the positioning of other elements on the page. they still occupy
+space in the document flow as if they were in their normal position,
+even though they may be visually shifted using the offset properties.
+('top', 'right', 'bottom', 'left')
+
+3. Examples of Use:
+Absolute Positioning: it is often used when you want to precisely
+position an element relative to specific parent container or the viewport.
+for example you might use absolute positioning for tooltips,
+modal windows or overlay elements.
+
+Relative Positioning: Relative Positioning is commonly used when you 
+want to nudge an element from its default position without removing
+it from the document flow. its useful for creating simple layouts
+or adding minor adjustments to element positions.
+
+
+
+
